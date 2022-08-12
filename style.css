@@ -3,5 +3,7 @@
 }
 .slider{
     /* background: rgba(29, 29, 29, 0.7); */
-    opacity: rgba(0, 0, 0, 1);
+    /* background: rgba(0, 0, 0, 0.7);
+    background-blend-mode:darken; */
+
 }
