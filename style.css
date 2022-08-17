@@ -2,15 +2,14 @@
   height: 100vh;
 }
 
-/* slider section */
+/* slider section start from here */
 .carousel-item {
   height: 100vh;
   min-height: 300px;
 }
 
 .carousel-caption {
-  /* bottom:500px; */
-  padding-bottom: 50px;
+  padding-bottom: 200px;
   z-index: 2;
 }
 
@@ -24,6 +23,7 @@
   width: 60%;
   margin: auto;
   font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .carousel-inner::before {
@@ -38,7 +38,7 @@
 
 }
 
-/* Explore The elearning Institute */
+/* About Digital Learning  */
 .explore-bg {
   background: #F4FAFD;
 }
@@ -76,15 +76,6 @@
 .course-details p{
   font-size: 14px;
 }
-
-
-
-/* FAQ section */
-.FAQ {
-  color: 289BDE;
-}
-
-
 
 /* ----------------------
 responsive-css
@@ -144,7 +135,7 @@ responsive-css
   }
 
   .carousel-caption h1 {
-    font-size: 17px;
+    font-size: 25px;
   }
 
   .carousel-caption a {
