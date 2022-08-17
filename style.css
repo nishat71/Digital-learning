@@ -2,24 +2,6 @@
   height: 100vh;
 }
 
-
-.slider:before {
-  /* content:"";
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgba(0,0,0,0.5); */
-}
-
-
-
-
-
-
-
-
 /* slider section */
 .carousel-item {
   height: 100vh;
@@ -75,15 +57,27 @@
   width: 40%;
 }
 
-.ready-join-area {}
-
-
-
 /* Meet Our Successfull Students tea */
 .section-header {
   width: 40%;
 
 }
+
+/* courses */
+.course-header {
+  width: 40%;
+  margin:auto;
+  text-align: center;
+}
+.course-details h6{
+  font-size:16px;
+  
+}
+.course-details p{
+  font-size: 14px;
+}
+
+
 
 /* FAQ section */
 .FAQ {
@@ -95,6 +89,49 @@
 /* ----------------------
 responsive-css
 ---------------------- */
+
+/* Medium devices (tablets, less than 992px) */
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .carousel-caption {
+    bottom: 370px;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+  }
+
+  .explore-details h2 {
+    font-size: 35px;
+  }
+
+  .single-member {
+    padding-top: 10px;
+  }
+  .section-header {
+    width: 60%;
+  }
+  .course-header{
+    width: 80%;
+  }
+  .course-details h6{
+    font-size:18px;
+  }
+  .course-details p{
+    font-size: 16px;
+  }
+  .ready-join-left {
+    width: 80%;
+    text-align: center;
+  }
+  .ready-join-right{
+    padding-top: 20px;
+  }
+  .ready-join-area {
+    flex-direction: column;
+  }
+}
+
+
 
 /* Small devices (landscape phones, less than 768px) */
 @media only screen and (max-width:767px) {
@@ -127,18 +164,10 @@ responsive-css
     padding-top: 10px;
   }
 
-  .about-text {
-    /* padding-top:50px; */
-  }
-
   .card {
-    /* margin-bottom: 30px; */
     text-align: center;
   }
 
-  /* .success-body{
-    text-align: center;
-  } */
   .section-header {
     width: 100%;
     text-align: center;
@@ -147,51 +176,29 @@ responsive-css
   .section-header h2 {
     font-size: 35px;
   }
-
-  .ready-join-left {
+  .course-header{
     width: 100%;
     text-align: center;
   }
-  .ready-join-right{
-    padding-top: 20px;
-  }
-  .ready-join-area {
+  .single-course{
     flex-direction: column;
   }
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media only screen and (min-width:768px) and (max-width:991px) {
-  .carousel-caption {
-    bottom: 370px;
+  .course-details{
+    padding:20px 0;
+    text-align: left;
   }
-
-  .carousel-caption p {
-    width: 100%;
+  .course-details h6{
+    font-size:20px;
   }
-
-  .explore-details h2 {
-    font-size: 35px;
+  .course-details p{
+    font-size: 18px;
   }
-
-  .card {
-    /* margin-bottom: 20px; */
-  }
-
-  .single-member {
-    padding-top: 10px;
-  }
-
   .img-area img {
-    /* width: 100%; */
-  }
-
-  .section-header {
-    width: 60%;
+    width: 100%;
   }
 
   .ready-join-left {
-    width: 80%;
+    width: 100%;
     text-align: center;
   }
   .ready-join-right{
@@ -201,3 +208,4 @@ responsive-css
     flex-direction: column;
   }
 }
+
